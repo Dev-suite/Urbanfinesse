@@ -3356,6 +3356,11 @@ ol {
 	.categories__text h2 {
 		font-size: 26px;
 	}
+
+	.mod .mod-text .hero__social a{
+		
+	}
+
 	.header__menu ul li {
 		margin-right: 38px;
 	}
