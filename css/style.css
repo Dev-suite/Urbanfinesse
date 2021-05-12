@@ -3808,3 +3808,11 @@ img{
 		margin-left: 187px;
 	}
 }
+
+@media only screen and (max-width: 375px){
+	.product__item__text .shop-button {
+		margin-left: 242px;
+	}
+}
+
+
