@@ -3301,7 +3301,21 @@ img{
 	.header__menu ul li {
 		margin-right: 10px;
 	}
+	.mod{
+		background-image: none;
+		height: 100vh;
+		background-color: #d3d4d5;
+	}
 
+	.mod-text{
+		margin-top: 60px;
+	}
+
+	.mod .mod-text .hero__social{
+		margin: 0;
+		padding-top: 30px;
+		
+	}
 	
 
 	.header .header__logo a img{
@@ -3379,7 +3393,9 @@ img{
 
 @media only screen and (max-width: 767px) {
 	.mod{
-		background-size: 100% 100vh;
+		background-image: none;
+		height: 100vh;
+		background-color: #d3d4d5;
 	}
 
 	.product__item__text .shop-button {
@@ -3748,12 +3764,13 @@ img{
 		margin-left: 321px;
 	}
 	.mod{
-		height: 120vh;
-		background-size: 100% 130vh;
+		background-image: none;
+		height: 100vh;
+		background-color: #d3d4d5;
 	}
 
 	.mod .mod-text{
-		margin-top: 180px;
+		margin-top: 100px;
 	}
 
 	.product .product__item a img{
@@ -3817,11 +3834,13 @@ img{
 		margin-left: 285px;
 	}
 	.mod{
-		background-size: 100% 120vh;
+		background-image: none;
+		height: 100vh;
+		background-color: #d3d4d5;
 	}
 
 	.mod .mod-text{
-		margin-top: 135px;
+		margin-top: 100px;
 	}
 }
 
@@ -3836,11 +3855,13 @@ img{
 		margin-left: 242px;
 	}
 	.mod{
-		background-size: 100% 120vh;
+		background-image: none;
+		height: 110vh;
+		background-color: #d3d4d5;
 	}
 
 	.mod .mod-text{
-		margin-top: 125px;
+		margin-top: 95px;
 	}
 
 }
