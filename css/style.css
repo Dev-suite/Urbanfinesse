@@ -3751,7 +3751,7 @@ img{
 		min-width: 100% !important;
 	}
 	.instagram .col-lg-4 .instagram__text{
-		margin-top: 170px;
+		padding-top: 180px;
 	}
 	.hero__items {
 		height: auto;
@@ -3800,5 +3800,11 @@ img{
 	}
 	.categories__text:before {
 		height: 250px;
+	}
+}
+
+@media only screen and (max-width: 320px){
+	.product__item__text .shop-button {
+		margin-left: 187px;
 	}
 }
