@@ -3377,7 +3377,8 @@ img{
 @media only screen and (max-width: 767px) {
 	.mod{
 		height: 105vh;
-		background-position: center;
+		background-position: left;
+		background-size: cover;
 	}
 
 	.product__item__text .shop-button {
@@ -3747,7 +3748,8 @@ img{
 	}
 	.mod{
 		height: 115vh;
-		background-size: 700px 700px;
+		background-position: center;
+		background-size: cover;
 	}
 	.product .product__item a img{
 		min-width: 100% !important;
