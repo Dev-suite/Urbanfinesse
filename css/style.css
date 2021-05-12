@@ -3751,7 +3751,7 @@ img{
 		min-width: 100% !important;
 	}
 	.instagram .col-lg-4 .instagram__text{
-		padding-top: 180px;
+		padding-top: 255px;
 	}
 	.hero__items {
 		height: auto;
@@ -3813,6 +3813,7 @@ img{
 	.product__item__text .shop-button {
 		margin-left: 242px;
 	}
+
 }
 
 
