@@ -3747,10 +3747,15 @@ img{
 		margin-left: 321px;
 	}
 	.mod{
-		height: 115vh;
+		height: 135vh;
 		background-position: center;
 		background-size: cover;
 	}
+
+	.mod .mod-text{
+		margin-top: 160px;
+	}
+
 	.product .product__item a img{
 		min-width: 100% !important;
 	}
