@@ -80,11 +80,8 @@ ol {
 .urb{
 	width: 300px;
 	height: 50px;
-	border: none;
-	border-radius: 5px;
-	background-color: #5e975e;
 	margin-top: 40px;
-	
+	background-color: white;
 }
 
 .insta{
@@ -1012,11 +1009,6 @@ img{
 	position: absolute;
 	left: 0;
 	top: 0;
-	opacity: 0;
-	visibility: hidden;
-	-webkit-transition: all, 0.3s;
-	-o-transition: all, 0.3s;
-	transition: all, 0.3s;
 }
 
 .product__item__text h6 {
@@ -1024,9 +1016,6 @@ img{
 	font-size: 15px;
 	font-weight: 600;
 	margin-bottom: 5px;
-	-webkit-transition: all, 0.3s;
-	-o-transition: all, 0.3s;
-	transition: all, 0.3s;
 }
 
 .product__item__text .rating {
@@ -1044,56 +1033,18 @@ img{
 	font-weight: 700;
 }
 
-.product__item__text .product__color__select {
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	opacity: 0;
-	-webkit-transition: all, 0.5s;
-	-o-transition: all, 0.5s;
-	transition: all, 0.5s;
-}
-
-.product__item__text .product__color__select label {
-	display: inline-block;
-	height: 12px;
-	width: 12px;
-	background: #5e64d1;
-	border-radius: 50%;
+.product__item__text .shop-button{
+	margin-left: 158px;
 	margin-bottom: 0;
-	margin-right: 5px;
-	position: relative;
-	cursor: pointer;
+	margin-top: -40px;
 }
 
-.product__item__text .product__color__select label.black {
-	background: #404a47;
-}
 
-.product__item__text .product__color__select label.grey {
-	background: #d5a667;
-}
 
-.product__item__text .product__color__select label.active:after {
-	opacity: 1;
-}
 
-.product__item__text .product__color__select label:after {
-	position: absolute;
-	left: -3px;
-	top: -3px;
-	height: 18px;
-	width: 18px;
-	border: 1px solid #b9b9b9;
-	content: "";
-	border-radius: 50%;
-	opacity: 0;
-}
 
-.product__item__text .product__color__select label input {
-	position: absolute;
-	visibility: hidden;
-}
+
+
 
 /*---------------------
   Shop
@@ -3348,6 +3299,13 @@ img{
 		margin-right: 10px;
 	}
 
+	
+
+	.header .header__logo a img{
+		width: 250px !important;
+		height: 75px !important;
+	}
+
 	.product .product__item a img{
 		max-width: 100% !important;
 	}
@@ -3421,8 +3379,12 @@ img{
 		height: 105vh;
 	}
 
+	.product__item__text .shop-button {
+		margin-left: 137px;
+	}
+
 	.instagram .col-lg-4 .instagram__text{
-		margin-top: 80px;
+		padding-top: 190px;
 	}
 
 
@@ -3778,7 +3740,9 @@ img{
 	.cart__total {
 		padding: 35px 30px 40px;
 	}
-
+	.product__item__text .shop-button {
+		margin-left: 321px;
+	}
 	.mod{
 		height: 115vh;
 		background-size: 700px 700px;

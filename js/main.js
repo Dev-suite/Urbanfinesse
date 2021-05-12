@@ -122,6 +122,9 @@
         horizrailenabled: false
     });
 
+    $('#visit').click(function() {
+        window.location='https://www.instagram.com/urbanfinesse.ng/';
+      });
     /*------------------
         CountDown
     --------------------*/
