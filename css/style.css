@@ -536,8 +536,7 @@ ol {
 .mod{
 	background-image: url(/img/banner/urban-finese-model.jpg);
 	background-repeat: no-repeat;
-	background-size: cover;
-	height: 590px;
+	background-size: 100% 100vh;
 }
 
 .mod-text h6 {
@@ -3278,6 +3277,10 @@ img{
 	.categories__text h2 {
 		font-size: 26px;
 	}
+	.mod{
+		background-size: 100% 110vh;
+	}
+
 	.header__menu ul li {
 		margin-right: 38px;
 	}
@@ -3376,9 +3379,7 @@ img{
 
 @media only screen and (max-width: 767px) {
 	.mod{
-		height: 105vh;
-		background-position: left;
-		background-size: cover;
+		background-size: 100% 100vh;
 	}
 
 	.product__item__text .shop-button {
@@ -3747,13 +3748,12 @@ img{
 		margin-left: 321px;
 	}
 	.mod{
-		height: 135vh;
-		background-position: center;
-		background-size: cover;
+		height: 120vh;
+		background-size: 100% 130vh;
 	}
 
 	.mod .mod-text{
-		margin-top: 160px;
+		margin-top: 180px;
 	}
 
 	.product .product__item a img{
@@ -3816,6 +3816,13 @@ img{
 	.product__item__text .shop-button{
 		margin-left: 285px;
 	}
+	.mod{
+		background-size: 100% 120vh;
+	}
+
+	.mod .mod-text{
+		margin-top: 135px;
+	}
 }
 
 @media only screen and (max-width: 320px){
@@ -3827,6 +3834,13 @@ img{
 @media only screen and (max-width: 375px){
 	.product__item__text .shop-button {
 		margin-left: 242px;
+	}
+	.mod{
+		background-size: 100% 120vh;
+	}
+
+	.mod .mod-text{
+		margin-top: 125px;
 	}
 
 }
